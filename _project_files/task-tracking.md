@@ -1,9 +1,10 @@
 ## task-tracking.md
 
 ### In Progress
-- [ ] Milestone 2: Template Library
+- [ ] Milestone 3: The Bilingual Editor
 
 ### Completed
+- [x] Milestone 2: Template Library — Responsive grid and Vitreous cards. — 2026-04-20
 - [x] Milestone 1: Vitreous Foundation — Initialize Vite and core glassmorphism tokens. — 2026-04-20
 - [x] Initial Project Setup — Update `_project_files` (vibe-prompt, roadmap, tracking) for Glaze. — 2026-04-20
 

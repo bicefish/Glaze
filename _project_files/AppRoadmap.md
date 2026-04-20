@@ -15,10 +15,10 @@ This roadmap outlines the step-by-step implementation of the **Glaze** prompt ma
 
 ## Milestone 2: Template Library
 **Goal:** Build the primary exploration interface.
-- [ ] Design the `TemplateCard` component with hashtag metadata display.
-- [ ] Create mock data service for the initial library view.
-- [ ] Implement the grid layout for template exploration.
-- [ ] **Testing Focus:** Grid responsiveness and hover animations on cards.
+- [x] Design the `TemplateCard` component with hashtag metadata display.
+- [x] Create mock data service for the initial library view.
+- [x] Implement the grid layout for template exploration.
+- [x] **Testing Focus:** Grid responsiveness and hover animations on cards.
 
 ---
 
