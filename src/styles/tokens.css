@@ -1,0 +1,56 @@
+:root {
+  /* ─── Vitreous Theme Tokens ─── */
+  
+  /* Backgrounds & Base Colors */
+  --base-midnight: #0f1115;
+  --base-charcoal: #1a1c22;
+  --base-gradient: radial-gradient(circle at center, var(--base-charcoal) 0%, var(--base-midnight) 100%);
+  
+  /* Glass Panels */
+  --glass-bg: rgba(35, 38, 44, 0.4);
+  --glass-blur: 15px;
+  --glass-border: 1px solid rgba(70, 72, 77, 0.15);
+  --glass-border-hover: 1px solid rgba(129, 236, 255, 0.3);
+  
+  /* Accents & Brand */
+  --neon-cyan: #81ecff;
+  --neon-cyan-glow: 0 0 15px rgba(129, 236, 255, 0.4);
+  --neon-cyan-border: 1px solid rgba(129, 236, 255, 0.5);
+  
+  /* Typography */
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --text-primary: rgba(255, 255, 255, 0.95);
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-muted: rgba(255, 255, 255, 0.3);
+  
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --panel-radius: 12px;
+}
+
+/* ─── Vitreous Utility Classes ─── */
+
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: var(--glass-border);
+  border-radius: var(--panel-radius);
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-panel-hover:hover {
+  border: var(--glass-border-hover);
+}
+
+.neon-glow {
+  box-shadow: var(--neon-cyan-glow);
+}
+
+.neon-text {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 8px rgba(129, 236, 255, 0.5);
+}
